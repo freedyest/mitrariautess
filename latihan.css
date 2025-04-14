@@ -1,0 +1,507 @@
+/*=====header=====*/
+html{
+    height:100%;
+    width:100%;
+
+}
+body{
+    background-color:#;
+    margin-top:75px;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    height:100%;
+    margin-bottom:0;
+    overflow-x:hidden;
+    }
+.header{
+    background-color:#EDF1D6;
+    top:0;
+    left:0;
+    right:0;
+    position:fixed;
+    height:75px;
+    z-index:100;
+}
+.hdrkiri{
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 20px;
+}
+.hdrkiri a,img{
+    display:inline-block;
+    vertical-align:middle;
+}
+.hdrkiri a{
+    color:white;
+    background-color:#609966;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;.
+}
+.hdrkiri a:hover{
+    background-color:#1A4624;
+    padding:10px 15px;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;.
+}
+.hdrkiri a:active{
+    background-color:#000000;
+    padding:10px 15px;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;.
+}
+.hdrkanan{
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 20px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.hdrkanan a{
+    display:inline-block;
+    vertical-align:middle;
+    color:#40513B;
+    background-color:#9DC08B;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;.
+}
+.hdrkanan a:hover{
+    background-color:#609966;
+    padding:10px 15px;
+    color:white;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;.
+}
+.hdrkanan a:active{
+    background-color:#1A4624;
+    padding:10px 15px;
+    color:white;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;.
+}
+
+/*=====intro perusahaan=====*/
+.intro{
+    background-color:#EDF1D6;
+    width:100%;
+
+}
+.intrperusahaan{
+    background-color:#EDF1D6;
+    width:48%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    float: left;
+   
+}
+
+.intrperusahaan h1{
+    font-size:60px;
+    color:#2B3627;
+}
+.intrperusahaan p{
+    font-size:36px;
+    color:#727C6F;
+}
+.intrperusahaan a{
+    display:inline-block;
+    color:white;
+    background-color:#609966;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:50px;
+}
+.intrperusahaan a:hover{
+    display:inline-block;
+    color:white;
+    background-color:#1A4624;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:50px;
+    transform: scale(1.2);
+}
+.gambarintr{
+    background-color:#EDF1D6;
+    width:50%;
+    position:relative;
+
+    float:left;
+}
+.gambarintr img{
+    width: 46%;
+    height: 500px;
+    padding-top:80px;
+    margin-left: 2%;
+    margin-bottom: 64px;
+
+}
+
+/*=====tentang perusahaan=====*/
+.tentangperusahaan1{
+    width:46%;
+    background-color:#40513B;
+    position:relative;
+    top:0;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    float:left;
+}
+.tentangperusahaan1 h2{
+    color:white;
+    font-size:48px;
+}
+.tentangperusahaan1 p{
+    color:#EDF1D6;
+    font-size:24px;
+}
+.tentangperusahaan1 h4{
+    color:white;
+    font-size:30px;
+}
+.tentangperusahaan2 img{
+    float:left;
+    width:50%;
+    height:518px;
+}
+
+/*=====legalitas perusahaan=====*/
+.legalitasperusahaan{
+    width:100%;
+    height:600px;
+    background-color:#EDF1D6;
+    margin-top:-18px;
+    overflow: hidden; 
+}
+.lglkiri{
+    width:46%;
+    padding-top:2%;
+    padding-left:2%;
+    padding-bottom:2%;
+    float:left;
+}
+.legalkiri{
+    box-sizing: border-box
+}
+.legalkiri h2{
+    font-size:48px;
+    color:#2B3627;
+}
+.legalkiri h5{
+    font-size:24px;
+    color:#727C6F;
+}
+
+.legalkiri p{
+    width:500px;
+    font-size:24px;
+    color:#727C6F;
+}
+.katalogkiri{
+    width:50%;
+
+}
+.ktlgkiri{
+    display:inline-block;
+    color:white;
+    background-color:#40513B;
+    margin-bottom:10px;
+    width:500px;
+}
+.ktlgkiri h3{
+    float:left;
+    width:40%;
+    padding:10px;
+}
+.ktlgkiri p{
+    text-align:right;
+    padding:10px;
+}
+
+.legalkanan{
+    float: left;
+    box-sizing: border-box;
+    width:46%;
+    padding-top:70px;
+    padding-bottom:2%;
+    padding-right:2%
+
+}
+.ktlgkanan{
+    display:inline-block;
+    width:100%;
+    margin-bottom:10px;
+    background-color:#40513B;
+    color:white;
+}
+.ktlgkanan h3{
+
+    float:left;
+    width:40%;
+    padding:10px;
+
+}
+.ktlgkanan p{
+    float:right;
+    padding:10px;
+
+}
+
+/*=====produk barang=====*/
+.produk{
+    padding:2%;
+    width:100%
+}
+.kontainer{
+    background-color:#EDF1D6;
+    float:left;
+    box-sizing: border-box;
+    width:30%;
+    margin:10px;
+}
+.kontainer h5{
+    color:#609966;
+    margin-left:20px;
+    margin-top:20px;
+    padding:5px 10px;
+    display:inline-block;
+   font-size:16px;
+   border-radius:30px;
+   border:2px solid #609966;
+}
+.kontainer p{
+    color:#40513B;
+    width:80%;
+    margin:20px;
+    display:inline-block;
+   font-size:16px;
+}
+
+.kontainer img{
+    width:100%;
+    display:inline-block;
+    margin:auto;
+    height:300px;
+}
+
+/*=====merchant=====*/
+.merchant{
+    background-color:#609966;
+    width:100%;
+}
+.ekosistem{
+    margin-left:2%;
+    margin-right:1%;
+    margin-top:2%;
+    margin-bottom:2%;
+    background-color:#40513B;
+    box-sizing:border-box;
+    width:47%;
+    color:white;
+    float:left;
+    padding-top:20px;
+    padding-left:10px;
+}
+.ekosistem h3{
+    display:inline-block;
+    color:white;
+    font-size:50px;
+}
+.ekosistem p{
+    display:inline-block;
+    color:#EDF1D6;
+    font-size:18px;
+}
+.ekosistem h6{
+    display:inline-block;
+    color:#40513B;
+    background-color:white;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.ekosistem h6:hover{
+    display:inline-block;
+    color:#40513B;
+    transform:scale(1.05);
+    background-color:#EDF1D6;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.ekosistem h6:active{
+    display:inline-block;
+    color:white;
+    background-color:#609966;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.imgmerch{
+    margin-left:1%;
+    margin-right:2%;
+    margin-top:2%;
+    margin-bottom:2%;
+    width:47%;
+    box-sizing:border-box;
+    float:left;
+}
+.imgmerch img{
+   width:96%;
+   height:502px;
+}
+
+/*=====visi misi=====*/
+.visimisi{
+    width:100%;
+    background-color:#EDF1D6;
+    height:750px;
+
+}
+.visi1{
+    width:50%;
+    box-sizing:border-box;
+    float:left;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+    
+.visi2 h2{
+    font-size:48px;
+}
+.visi2 p{
+    width:90%;
+    font-size:24px;
+    color:#727C6F;
+}
+.kontainvisi{
+    box-sizing:border-box;
+    width:95%;
+    background-color:#40513B;
+    padding-top:5px;
+    padding-left:10px;
+    display:inline-block;
+}
+.kontainvisi h3{
+    width:85%;
+    color:white;
+    font-size:28px;
+
+}
+.kontainvisi p{
+    width:90%;
+    color:#727C6F;
+    font-size:24px;
+}
+
+.misi1{
+    float:left;
+    width:50%;
+
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.kontainermisi1{
+    width:44%;
+    float:left;
+    margin:2%;
+    background-color:#40513B;
+    padding-bottom:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+.kontainermisi2{
+    width:92%;
+    margin:2%;
+    background-color:#40513B;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+
+    margin-bottom:20px;
+}
+
+.kontainermisi1 h3{
+    color:white;
+    font-size:28px;
+}
+.kontainermisi1 p{
+    color:#727C6F;
+    font-size:22px;
+}
+
+.kontainermisi2 h3{
+    color:white;
+    font-size:28px;
+
+}
+.kontainermisi2 p{
+    color:#727C6F;
+    font-size:22px;
+}
+
+/*===== footer =====*/
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color:#40513B;
+    color: white;
+    padding-left: 20px;
+    height:auto;
+    padding-bottom:0;
+    margin:0;
+}
+
+.ed{
+    float:left;
+    width:50%;
+    box-sizing:border-box;
+    background-color:#40513B;
+
+}
+.ed h1{
+    font-size:36px;
+}
+.subfoot{
+    color:#727C6F;
+    font-size:20px;
+}
+.ed p{
+    width:70%;
+    color:white;
+    font-size:20px;
+}
+.ed a{
+    width:70%;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    
+}
+.lifoot{
+    margin-left: 10px;
+}
+
+.map{
+    margin:0;
+    padding:0;
+    float:left;
+    width:50%;
+    height:508px;
+    box-sizing:border-box;
+    background-color:#40513B;
+    position:relative;
+}
